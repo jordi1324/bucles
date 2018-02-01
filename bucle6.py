@@ -5,6 +5,5 @@ x=0
 
 while (lim>x):
     num1=int(input("Escribe un numero"))
-    num2=int(input("Escribe otro numero"))
-    x=num1+num2
+    x=num1+x
 print("Has superado el limite con",x)
